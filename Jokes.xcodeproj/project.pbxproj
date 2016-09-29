@@ -10,11 +10,10 @@
 		E908D1911D9CD82100A6E122 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E908D1901D9CD82100A6E122 /* main.m */; };
 		E908D1941D9CD82100A6E122 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E908D1931D9CD82100A6E122 /* AppDelegate.m */; };
 		E908D1971D9CD82100A6E122 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E908D1961D9CD82100A6E122 /* ViewController.m */; };
-		E908D19A1D9CD82100A6E122 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E908D1981D9CD82100A6E122 /* Main.storyboard */; };
 		E908D19C1D9CD82100A6E122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E908D19B1D9CD82100A6E122 /* Assets.xcassets */; };
-		E908D19F1D9CD82100A6E122 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E908D19D1D9CD82100A6E122 /* LaunchScreen.storyboard */; };
 		E908D1AA1D9CD82100A6E122 /* JokesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E908D1A91D9CD82100A6E122 /* JokesTests.m */; };
 		E908D1B51D9CD82100A6E122 /* JokesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E908D1B41D9CD82100A6E122 /* JokesUITests.m */; };
+		E908D1C31D9CD9DD00A6E122 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E908D1C21D9CD9DD00A6E122 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +40,7 @@
 		E908D1931D9CD82100A6E122 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E908D1951D9CD82100A6E122 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E908D1961D9CD82100A6E122 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E908D1991D9CD82100A6E122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E908D19B1D9CD82100A6E122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E908D19E1D9CD82100A6E122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E908D1A01D9CD82100A6E122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E908D1A51D9CD82100A6E122 /* JokesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JokesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E908D1A91D9CD82100A6E122 /* JokesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JokesTests.m; sourceTree = "<group>"; };
@@ -51,6 +48,7 @@
 		E908D1B01D9CD82100A6E122 /* JokesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JokesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E908D1B41D9CD82100A6E122 /* JokesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JokesUITests.m; sourceTree = "<group>"; };
 		E908D1B61D9CD82100A6E122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E908D1C21D9CD9DD00A6E122 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +103,7 @@
 				E908D1931D9CD82100A6E122 /* AppDelegate.m */,
 				E908D1951D9CD82100A6E122 /* ViewController.h */,
 				E908D1961D9CD82100A6E122 /* ViewController.m */,
-				E908D1981D9CD82100A6E122 /* Main.storyboard */,
-				E908D19B1D9CD82100A6E122 /* Assets.xcassets */,
-				E908D19D1D9CD82100A6E122 /* LaunchScreen.storyboard */,
-				E908D1A01D9CD82100A6E122 /* Info.plist */,
+				E908D1C21D9CD9DD00A6E122 /* Images.xcassets */,
 				E908D18F1D9CD82100A6E122 /* Supporting Files */,
 			);
 			path = Jokes;
@@ -117,6 +112,8 @@
 		E908D18F1D9CD82100A6E122 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E908D19B1D9CD82100A6E122 /* Assets.xcassets */,
+				E908D1A01D9CD82100A6E122 /* Info.plist */,
 				E908D1901D9CD82100A6E122 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -243,9 +240,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E908D19F1D9CD82100A6E122 /* LaunchScreen.storyboard in Resources */,
+				E908D1C31D9CD9DD00A6E122 /* Images.xcassets in Resources */,
 				E908D19C1D9CD82100A6E122 /* Assets.xcassets in Resources */,
-				E908D19A1D9CD82100A6E122 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,25 +302,6 @@
 			targetProxy = E908D1B11D9CD82100A6E122 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E908D1981D9CD82100A6E122 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E908D1991D9CD82100A6E122 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E908D19D1D9CD82100A6E122 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E908D19E1D9CD82100A6E122 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E908D1B71D9CD82100A6E122 /* Debug */ = {
@@ -415,6 +392,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = Jokes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UNH.ZheWu.Jokes;
@@ -426,6 +404,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = Jokes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UNH.ZheWu.Jokes;
