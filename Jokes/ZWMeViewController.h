@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ZWMeViewController.h
 //  Jokes
 //
 //  Created by zhe wu on 9/29/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ZWMeViewController : UIViewController
 
 @end
-

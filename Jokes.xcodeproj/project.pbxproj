@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		E908D1911D9CD82100A6E122 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E908D1901D9CD82100A6E122 /* main.m */; };
 		E908D1941D9CD82100A6E122 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E908D1931D9CD82100A6E122 /* AppDelegate.m */; };
-		E908D1971D9CD82100A6E122 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E908D1961D9CD82100A6E122 /* ViewController.m */; };
 		E908D19C1D9CD82100A6E122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E908D19B1D9CD82100A6E122 /* Assets.xcassets */; };
 		E908D1AA1D9CD82100A6E122 /* JokesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E908D1A91D9CD82100A6E122 /* JokesTests.m */; };
 		E908D1B51D9CD82100A6E122 /* JokesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E908D1B41D9CD82100A6E122 /* JokesUITests.m */; };
 		E908D1C31D9CD9DD00A6E122 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E908D1C21D9CD9DD00A6E122 /* Images.xcassets */; };
+		E908D1C61D9D7F2100A6E122 /* ZWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E908D1C51D9D7F2100A6E122 /* ZWTabBarController.m */; };
+		E9DE9DD81D9D8A0C0098A28E /* ZWGessenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DE9DD71D9D8A0C0098A28E /* ZWGessenceViewController.m */; };
+		E9DE9DDB1D9D8A1E0098A28E /* ZWNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DE9DDA1D9D8A1E0098A28E /* ZWNewViewController.m */; };
+		E9DE9DDE1D9D8A450098A28E /* ZWfriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DE9DDD1D9D8A450098A28E /* ZWfriendTrendsViewController.m */; };
+		E9DE9DE11D9D8A590098A28E /* ZWMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DE9DE01D9D8A590098A28E /* ZWMeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +42,6 @@
 		E908D1901D9CD82100A6E122 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E908D1921D9CD82100A6E122 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E908D1931D9CD82100A6E122 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E908D1951D9CD82100A6E122 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E908D1961D9CD82100A6E122 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E908D19B1D9CD82100A6E122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E908D1A01D9CD82100A6E122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E908D1A51D9CD82100A6E122 /* JokesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JokesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +51,16 @@
 		E908D1B41D9CD82100A6E122 /* JokesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JokesUITests.m; sourceTree = "<group>"; };
 		E908D1B61D9CD82100A6E122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E908D1C21D9CD9DD00A6E122 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E908D1C41D9D7F2100A6E122 /* ZWTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZWTabBarController.h; path = ../ZWTabBarController.h; sourceTree = "<group>"; };
+		E908D1C51D9D7F2100A6E122 /* ZWTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZWTabBarController.m; path = ../ZWTabBarController.m; sourceTree = "<group>"; };
+		E9DE9DD61D9D8A0C0098A28E /* ZWGessenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWGessenceViewController.h; sourceTree = "<group>"; };
+		E9DE9DD71D9D8A0C0098A28E /* ZWGessenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWGessenceViewController.m; sourceTree = "<group>"; };
+		E9DE9DD91D9D8A1E0098A28E /* ZWNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWNewViewController.h; sourceTree = "<group>"; };
+		E9DE9DDA1D9D8A1E0098A28E /* ZWNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWNewViewController.m; sourceTree = "<group>"; };
+		E9DE9DDC1D9D8A450098A28E /* ZWfriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWfriendTrendsViewController.h; sourceTree = "<group>"; };
+		E9DE9DDD1D9D8A450098A28E /* ZWfriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWfriendTrendsViewController.m; sourceTree = "<group>"; };
+		E9DE9DDF1D9D8A590098A28E /* ZWMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWMeViewController.h; sourceTree = "<group>"; };
+		E9DE9DE01D9D8A590098A28E /* ZWMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWMeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +113,18 @@
 			children = (
 				E908D1921D9CD82100A6E122 /* AppDelegate.h */,
 				E908D1931D9CD82100A6E122 /* AppDelegate.m */,
-				E908D1951D9CD82100A6E122 /* ViewController.h */,
-				E908D1961D9CD82100A6E122 /* ViewController.m */,
+				E908D1C41D9D7F2100A6E122 /* ZWTabBarController.h */,
+				E908D1C51D9D7F2100A6E122 /* ZWTabBarController.m */,
 				E908D1C21D9CD9DD00A6E122 /* Images.xcassets */,
 				E908D18F1D9CD82100A6E122 /* Supporting Files */,
+				E9DE9DD61D9D8A0C0098A28E /* ZWGessenceViewController.h */,
+				E9DE9DD71D9D8A0C0098A28E /* ZWGessenceViewController.m */,
+				E9DE9DD91D9D8A1E0098A28E /* ZWNewViewController.h */,
+				E9DE9DDA1D9D8A1E0098A28E /* ZWNewViewController.m */,
+				E9DE9DDC1D9D8A450098A28E /* ZWfriendTrendsViewController.h */,
+				E9DE9DDD1D9D8A450098A28E /* ZWfriendTrendsViewController.m */,
+				E9DE9DDF1D9D8A590098A28E /* ZWMeViewController.h */,
+				E9DE9DE01D9D8A590098A28E /* ZWMeViewController.m */,
 			);
 			path = Jokes;
 			sourceTree = "<group>";
@@ -199,6 +219,7 @@
 		E908D1841D9CD82100A6E122 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZW;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "zhe wu";
 				TargetAttributes = {
@@ -266,8 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E908D1971D9CD82100A6E122 /* ViewController.m in Sources */,
+				E908D1C61D9D7F2100A6E122 /* ZWTabBarController.m in Sources */,
 				E908D1941D9CD82100A6E122 /* AppDelegate.m in Sources */,
+				E9DE9DD81D9D8A0C0098A28E /* ZWGessenceViewController.m in Sources */,
+				E9DE9DDE1D9D8A450098A28E /* ZWfriendTrendsViewController.m in Sources */,
+				E9DE9DDB1D9D8A1E0098A28E /* ZWNewViewController.m in Sources */,
+				E9DE9DE11D9D8A590098A28E /* ZWMeViewController.m in Sources */,
 				E908D1911D9CD82100A6E122 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,6 +502,7 @@
 				E908D1BB1D9CD82100A6E122 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E908D1BC1D9CD82100A6E122 /* Build configuration list for PBXNativeTarget "JokesTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +511,7 @@
 				E908D1BE1D9CD82100A6E122 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E908D1BF1D9CD82100A6E122 /* Build configuration list for PBXNativeTarget "JokesUITests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +520,7 @@
 				E908D1C11D9CD82100A6E122 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "ZWTabBarController.h"
+
 
 @interface AppDelegate ()
 
@@ -21,9 +22,12 @@
     
     self.window = [[UIWindow alloc] init];
     self.window.frame = [UIScreen mainScreen].bounds;
-    self.window.rootViewController = [[UIViewController alloc] init];
+    UITabBarController *tabVC = [[ZWTabBarController alloc] init];
     
+    self.window.rootViewController = tabVC;
+
     [self.window makeKeyAndVisible];
+    
     
     return YES;
 }
