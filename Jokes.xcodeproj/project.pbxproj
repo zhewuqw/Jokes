@@ -18,6 +18,8 @@
 		E9DE9DDB1D9D8A1E0098A28E /* ZWNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DE9DDA1D9D8A1E0098A28E /* ZWNewViewController.m */; };
 		E9DE9DDE1D9D8A450098A28E /* ZWfriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DE9DDD1D9D8A450098A28E /* ZWfriendTrendsViewController.m */; };
 		E9DE9DE11D9D8A590098A28E /* ZWMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DE9DE01D9D8A590098A28E /* ZWMeViewController.m */; };
+		E9DE9DE41D9D8EA90098A28E /* ZWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DE9DE31D9D8EA90098A28E /* ZWTabBar.m */; };
+		E9E7F7C51D9DA23600580A85 /* UIView+ZWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E7F7C41D9DA23600580A85 /* UIView+ZWExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,11 @@
 		E9DE9DDD1D9D8A450098A28E /* ZWfriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWfriendTrendsViewController.m; sourceTree = "<group>"; };
 		E9DE9DDF1D9D8A590098A28E /* ZWMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWMeViewController.h; sourceTree = "<group>"; };
 		E9DE9DE01D9D8A590098A28E /* ZWMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWMeViewController.m; sourceTree = "<group>"; };
+		E9DE9DE21D9D8EA90098A28E /* ZWTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWTabBar.h; sourceTree = "<group>"; };
+		E9DE9DE31D9D8EA90098A28E /* ZWTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWTabBar.m; sourceTree = "<group>"; };
+		E9E7F7C31D9DA23600580A85 /* UIView+ZWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZWExtension.h"; sourceTree = "<group>"; };
+		E9E7F7C41D9DA23600580A85 /* UIView+ZWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZWExtension.m"; sourceTree = "<group>"; };
+		E9E7F7C61D9DA26500580A85 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,10 +120,12 @@
 			children = (
 				E908D1921D9CD82100A6E122 /* AppDelegate.h */,
 				E908D1931D9CD82100A6E122 /* AppDelegate.m */,
+				E9E7F7C31D9DA23600580A85 /* UIView+ZWExtension.h */,
+				E9E7F7C41D9DA23600580A85 /* UIView+ZWExtension.m */,
+				E9DE9DE21D9D8EA90098A28E /* ZWTabBar.h */,
+				E9DE9DE31D9D8EA90098A28E /* ZWTabBar.m */,
 				E908D1C41D9D7F2100A6E122 /* ZWTabBarController.h */,
 				E908D1C51D9D7F2100A6E122 /* ZWTabBarController.m */,
-				E908D1C21D9CD9DD00A6E122 /* Images.xcassets */,
-				E908D18F1D9CD82100A6E122 /* Supporting Files */,
 				E9DE9DD61D9D8A0C0098A28E /* ZWGessenceViewController.h */,
 				E9DE9DD71D9D8A0C0098A28E /* ZWGessenceViewController.m */,
 				E9DE9DD91D9D8A1E0098A28E /* ZWNewViewController.h */,
@@ -125,6 +134,8 @@
 				E9DE9DDD1D9D8A450098A28E /* ZWfriendTrendsViewController.m */,
 				E9DE9DDF1D9D8A590098A28E /* ZWMeViewController.h */,
 				E9DE9DE01D9D8A590098A28E /* ZWMeViewController.m */,
+				E9E7F7C61D9DA26500580A85 /* PrefixHeader.pch */,
+				E908D18F1D9CD82100A6E122 /* Supporting Files */,
 			);
 			path = Jokes;
 			sourceTree = "<group>";
@@ -132,6 +143,7 @@
 		E908D18F1D9CD82100A6E122 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E908D1C21D9CD9DD00A6E122 /* Images.xcassets */,
 				E908D19B1D9CD82100A6E122 /* Assets.xcassets */,
 				E908D1A01D9CD82100A6E122 /* Info.plist */,
 				E908D1901D9CD82100A6E122 /* main.m */,
@@ -289,6 +301,8 @@
 			files = (
 				E908D1C61D9D7F2100A6E122 /* ZWTabBarController.m in Sources */,
 				E908D1941D9CD82100A6E122 /* AppDelegate.m in Sources */,
+				E9DE9DE41D9D8EA90098A28E /* ZWTabBar.m in Sources */,
+				E9E7F7C51D9DA23600580A85 /* UIView+ZWExtension.m in Sources */,
 				E9DE9DD81D9D8A0C0098A28E /* ZWGessenceViewController.m in Sources */,
 				E9DE9DDE1D9D8A450098A28E /* ZWfriendTrendsViewController.m in Sources */,
 				E9DE9DDB1D9D8A1E0098A28E /* ZWNewViewController.m in Sources */,
@@ -418,6 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = Jokes/PrefixHeader.pch;
 				INFOPLIST_FILE = Jokes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UNH.ZheWu.Jokes;
@@ -430,6 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = Jokes/PrefixHeader.pch;
 				INFOPLIST_FILE = Jokes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UNH.ZheWu.Jokes;

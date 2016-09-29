@@ -11,6 +11,7 @@
 #import "ZWNewViewController.h"
 #import "ZWfriendTrendsViewController.h"
 #import "ZWMeViewController.h"
+#import "ZWTabBar.h"
 
 @interface ZWTabBarController ()
 
@@ -40,6 +41,7 @@
     [self setupChildVC:[[ZWGessenceViewController alloc] init] title:@"guanzhu" image:@"tabBar_friendTrends_icon" selectedImage:@"tabBar_friendTrends_click_icon"];
     
     [self setupChildVC:[[ZWMeViewController alloc] init] title:@"me" image:@"tabBar_me_icon" selectedImage:@"tabBar_me_click_icon"];
+    [self setValue:[[ZWTabBar alloc] init] forKey:@"tabBar"];
     
 }
 
