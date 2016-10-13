@@ -1,0 +1,19 @@
+//
+//  PrefixHeader.pch
+//  Jokes
+//
+//  Created by zhe wu on 9/29/16.
+//  Copyright © 2016 zhe wu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+ZWExtension.h"
+#import "UIBarButtonItem+ZWExtesion.h"
+#import "ZWConst.h"
+
+
+#define ZWRGBColor(r, g, b) [UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0 alpha:1.0]
+#define ZWGlobalBG ZWRGBColor(223, 233, 233)
+#endif /* PrefixHeader_pch */
